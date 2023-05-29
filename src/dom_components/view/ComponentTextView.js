@@ -6,10 +6,10 @@ const compProt = ComponentView.prototype;
 
 export default class ComponentTextView extends ComponentView {
   events() {
-    // return {
-    //   click: 'onActive',
-    //   input: 'onInput',
-    // };
+    return {
+      click: 'onActive',
+      input: 'onInput',
+    };
   }
 
   initialize(o) {
