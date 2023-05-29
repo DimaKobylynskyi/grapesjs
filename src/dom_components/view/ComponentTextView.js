@@ -7,7 +7,7 @@ const compProt = ComponentView.prototype;
 export default class ComponentTextView extends ComponentView {
   events() {
     return {
-      dblclick: 'onActive',
+      click: 'onActive',
       input: 'onInput',
     };
   }
